@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* ----------- HEADINGS ------------- */
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+nav {
+    width: 20%;
+    padding: 10px;
+    background-color: #f3f3f3;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+section {
+    width: 80%;
+    padding: 40px;
+    float: right;
+}
+
+table {
+    margin: 0 auto;
+}
+
+th {
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px;
+}
+
+th,
+td {
+    border: solid 1px #e6e6e6;
+}
+
+tr {
+    background-color: rgb(207, 207, 207);
+}
+
+tr.even {
+    background-color: rgb(235, 235, 235);
+}
+
+#heading {
+    background-color: rgb(2, 133, 173);
+    color: white;
+}
